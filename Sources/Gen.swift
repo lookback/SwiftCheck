@@ -19,7 +19,11 @@ public struct Gen<A> {
 	///          |       +--- The size of generated values.
 	///          |       |
 	///          v       v
-	let unGen : (StdGen, Int) -> A
+	public let unGen : (StdGen, Int) -> A
+
+    public init(unGen: (StdGen, Int) -> A) {
+        self.unGen = unGen
+    }
 
 	/// Generates a value.
 	///
