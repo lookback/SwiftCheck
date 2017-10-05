@@ -510,7 +510,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = Typelift;
 				TargetAttributes = {
 					8240CCB01C3A123600EF4D29 = {
